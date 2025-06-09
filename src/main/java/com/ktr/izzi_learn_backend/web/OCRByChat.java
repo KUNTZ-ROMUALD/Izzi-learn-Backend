@@ -32,6 +32,7 @@ public class OCRByChat {
                 .modelName(OpenAiChatModelName.GPT_4_O)
                 .logRequests(true)
                 .logResponses(true)
+                .apiKey("")
                 .build();
     }
 
